@@ -6,3 +6,6 @@
 ![alt text](ReadmeImages/image1.png)
 ---
 
+# Deferrable views
+![alt text](ReadmeImages/image2.png)
+---
