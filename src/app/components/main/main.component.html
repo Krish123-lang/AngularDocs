@@ -1,10 +1,10 @@
-<!-- <app-first [message]="parentMessage" (messageEvent)="receiveMsg($event)" [sendChild]="sendToChild"
+<app-first [message]="parentMessage" (messageEvent)="receiveMsg($event)" [sendChild]="sendToChild"
     (parentEvent)="receiveParentMsg($event)"></app-first>
 {{message}}
 
 {{parentMsg}}
 
-<hr> -->
+<hr>
 
 <!-- <app-second /> -->
 
@@ -12,4 +12,18 @@
 
 <!-- <app-fourth /> -->
 
-<app-fifth/>
+<!-- <app-fifth/> -->
+
+<nav>
+    <ul>
+        <li><a routerLink="/">Home</a></li>
+        <li><a routerLink="first">first</a></li>
+        <li><a routerLink="second">second</a></li>
+        <li><a routerLink="third">third</a></li>
+        <li><a routerLink="fourth">fourth</a></li>
+        <li><a routerLink="fifth">fifth</a></li>
+        <li><a routerLink="sixth">sixth</a></li>
+    </ul>
+</nav>
+
+<router-outlet></router-outlet>

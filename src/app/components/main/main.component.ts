@@ -4,11 +4,13 @@ import { SecondComponent } from "../second/second.component";
 import { ThirdComponent } from "../third/third.component";
 import { FourthComponent } from "../fourth/fourth.component";
 import { FifthComponent } from '../fifth/fifth.component';
+import { SixthComponent } from "../sixth/sixth.component";
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-main',
   standalone: true,
-  imports: [FirstComponent, SecondComponent, ThirdComponent, FourthComponent, FifthComponent],
+  imports: [FirstComponent, SecondComponent, ThirdComponent, FourthComponent, FifthComponent, SixthComponent, RouterLink, RouterOutlet],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css'
 })
