@@ -1,0 +1,45 @@
+<p>{{city}} - {{1+1}}</p>
+
+@if (isServerRunning) {
+<span>Yes! server is running</span>
+}
+@else if (1+1==3) {
+<span>{{1+1}}</span>
+}
+@else {
+<span>No! server is Not running</span>
+}
+
+<hr>
+<h1>Town</h1>
+@for (town of towns; track $index) {
+{{$index+1}}. {{town}}
+<hr>
+}
+<br>
+
+<h1>OS</h1>
+@for (os of operatingSystems; track $index) {
+{{os.name}}
+<hr>
+}
+<br>
+
+<h1>Users</h1>
+@for(user of users; track $index){
+{{user.name}}
+<hr>
+}
+<br>
+
+@if (username=="krishna") {
+<input type="text" [disabled]="isEditable==false">
+}
+@else {
+<input type="text" [disabled]="isEditable==true">
+}
+
+<hr>
+<br>
+
+<img [src]="imageUrl" [alt]="altName">
