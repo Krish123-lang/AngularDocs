@@ -3,11 +3,12 @@ import { FirstComponent } from "../first/first.component";
 import { SecondComponent } from "../second/second.component";
 import { ThirdComponent } from "../third/third.component";
 import { FourthComponent } from "../fourth/fourth.component";
+import { FifthComponent } from '../fifth/fifth.component';
 
 @Component({
   selector: 'app-main',
   standalone: true,
-  imports: [FirstComponent, SecondComponent, ThirdComponent, FourthComponent],
+  imports: [FirstComponent, SecondComponent, ThirdComponent, FourthComponent, FifthComponent],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css'
 })
