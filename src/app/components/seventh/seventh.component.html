@@ -1,0 +1,19 @@
+<form [formGroup]="profileForm" (ngSubmit)="handleFormSubmit()">
+    <div>
+        <label for="">Name</label>
+        <input type="text" formControlName="name">
+    </div>
+    <div>
+        <label for="">Email</label>
+        <input type="email" formControlName="email">
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+<hr>
+<div>
+    <h2>Profile Form: </h2>
+    <p>Name: {{profileForm.value.name}}</p>
+    <p>Email: {{profileForm.value.email}}</p>
+</div>
