@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { FirstComponent } from "../first/first.component";
 import { SecondComponent } from "../second/second.component";
+import { ThirdComponent } from "../third/third.component";
 
 @Component({
   selector: 'app-main',
   standalone: true,
-  imports: [FirstComponent, SecondComponent],
+  imports: [FirstComponent, SecondComponent, ThirdComponent],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css'
 })
