@@ -8,7 +8,7 @@
         <input type="email" formControlName="email">
     </div>
     <div>
-        <button type="submit">Submit</button>
+        <button type="submit" [disabled]="!profileForm.valid">Submit</button>
     </div>
 </form>
 <hr>
