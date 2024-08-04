@@ -1,0 +1,7 @@
+<app-first [message]="parentMessage" (messageEvent)="receiveMsg($event)" [sendChild]="sendToChild"
+    (parentEvent)="receiveParentMsg($event)"></app-first>
+{{message}}
+
+{{parentMsg}}
+
+<hr>
