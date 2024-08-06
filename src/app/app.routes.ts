@@ -6,6 +6,7 @@ import { FourthComponent } from './components/fourth/fourth.component';
 import { FifthComponent } from './components/fifth/fifth.component';
 import { SixthComponent } from './components/sixth/sixth.component';
 import { SeventhComponent } from './components/seventh/seventh.component';
+import { EihtComponent } from './components/eiht/eiht.component';
 
 export const routes: Routes = [
     { path: 'first', title: 'first', component: FirstComponent },
@@ -15,4 +16,5 @@ export const routes: Routes = [
     { path: 'fifth', title: 'fifth', component: FifthComponent },
     { path: 'sixth', title: 'sixth', component: SixthComponent },
     { path: 'seventh', title: 'seventh', component: SeventhComponent },
+    { path: 'eiht', title: 'eiht', component: EihtComponent }, 
 ];
